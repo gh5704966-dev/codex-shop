@@ -19,6 +19,17 @@
 # misc
 .DS_Store
 *.pem
+Thumbs.db
+Desktop.ini
+
+# editors and IDEs
+/.vs/
+/.idea/
+/.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
 # debug
 npm-debug.log*
@@ -36,3 +47,10 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# local caches and temporary files
+/.cache/
+/tmp/
+*.tmp
+*.swp
+*~
