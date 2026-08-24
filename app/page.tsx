@@ -36,7 +36,7 @@ export default function Home() {
       <section className="menu-section" id="menu">
         <div className="menu-head">
           <div><p className="eyebrow light">本季菜单</p><p className="section-number light-number">02</p></div>
-          <h2>春山醒味</h2><p>菜单随节气而变，以下为本季精选。<br />七道式尝味菜单 ¥688 / 位</p>
+          <h2>春山美味</h2><p>菜单随节气而变，以下为本季精选。<br />七道式尝味菜单 ¥688 / 位</p>
         </div>
         <div className="dish-list">{dishes.map((dish, index) => <article className="dish" key={dish.name}><span className="dish-index">0{index + 1}</span><div><h3>{dish.name}</h3><p>{dish.note}</p></div><strong>{dish.price}</strong></article>)}</div>
         <a className="button button-outline" href="#reserve">浏览完整菜单</a>
